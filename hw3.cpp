@@ -26,7 +26,7 @@ if (fileIn.fail())
     cin.get();
     exit(1);
 }
-cout << "Original:";
+cout << "Initial Array:";
 while(fileIn >> a)
 {
     V[i++] = a;
