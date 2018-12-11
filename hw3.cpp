@@ -3,8 +3,8 @@
 #include <fstream>
 #include <cstdlib>
 
-// Vishal Kumar
-// HW #3 - Bubble Sorting an Array
+/// Vishal Kumar
+/// HW #3 - Bubble Sorting an Array
 using namespace std;
 
 const int size = 11;
@@ -15,7 +15,7 @@ void read_txt()
     int a, i = 0;
     char text[20];
 
-ifstream fileIn; // Used to open file
+ifstream fileIn; /// Used to open file
 cout << "Enter file name: " << endl;
 cin >> text;
 
@@ -30,10 +30,10 @@ cout << "Initial Array:";
 while(fileIn >> a)
 {
     V[i++] = a;
-    cout << setw(5) << a; // Sets width
+    cout << setw(5) << a; /// Sets width
 }
 cout << endl;
-fileIn.close(); // Closes file
+fileIn.close(); /// Closes file
 }
 void print_txt()
 {
@@ -46,7 +46,7 @@ void print_txt()
     fileOut << V[i];
     cout << setw(5) << V[i];
 }
-fileOut.close(); // Closes file
+fileOut.close(); /// Closes file
 }
 
 void bubble_sort()
