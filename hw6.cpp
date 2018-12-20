@@ -1,4 +1,4 @@
-///Vishal Kumar
+/// Vishal Kumar
 /// HW #6
 #include "hw6.h"
 #include <iostream>
